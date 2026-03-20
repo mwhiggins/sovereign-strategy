@@ -1,0 +1,27 @@
+{
+  "secrets_management": {
+    "active": "gcp_secret_manager",
+    "status": "ACTIVE",
+    "replaces": [
+      "doppler"
+    ],
+    "last_updated": "2026-03-20",
+    "enforcement": "STRICT"
+  },
+  "hosting_platform": {
+    "active": "gcp_firebase_hosting",
+    "status": "ACTIVE",
+    "replaces": [
+      "vercel"
+    ],
+    "last_updated": "2026-03-20",
+    "enforcement": "STRICT"
+  },
+  "primary_database": {
+    "active": "google_firestore",
+    "status": "ACTIVE",
+    "replaces": [],
+    "last_updated": "2026-03-20",
+    "enforcement": "STRICT"
+  }
+}
